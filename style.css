@@ -18,7 +18,7 @@
   --border: var(--eclipsed-violet);
   --surface: var(--radioactive-lime);
 
-  --maxw: 1200px;
+  --maxw: 70vw;
   --gap: 1.5rem;
   --pad: 2rem;
   --radius: 0;
@@ -30,6 +30,7 @@
 html {
   /* base backdrop */
   background: var(--eclipsed-violet);
+  font-size: 22px;
 }
 
 /* --- Blob gradient background (static-ish, but you can keep the subtle drift) --- */
@@ -43,7 +44,7 @@ body {
   justify-content: center;
   min-height: 100vh;
   line-height: 1.6;
-
+  font-size: 1.1em;
   position: relative;
   overflow-x: hidden;
 }
@@ -170,6 +171,8 @@ body::after {
 .container {
   max-width: var(--maxw);
   width: 100%;
+  margin-left: auto;
+  margin-right: auto;
   background: var(--bg);
   border: var(--border-width) solid var(--border);
   box-shadow: 12px 12px 0 rgba(0, 0, 0, 0.15);
