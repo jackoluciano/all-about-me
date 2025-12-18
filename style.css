@@ -18,7 +18,7 @@
   --border: var(--eclipsed-violet);
   --surface: var(--radioactive-lime);
 
-  --maxw: 70vw;
+  --maxw: 1500px;
   --gap: 1.5rem;
   --pad: 2rem;
   --radius: 0;
@@ -44,7 +44,7 @@ body {
   justify-content: center;
   min-height: 100vh;
   line-height: 1.6;
-  font-size: 1.1em;
+  font-size: 20px;
   position: relative;
   overflow-x: hidden;
 }
