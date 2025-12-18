@@ -30,7 +30,7 @@
 html {
   /* base backdrop */
   background: var(--eclipsed-violet);
-  font-size: 22px;
+  font-size: 1.1rem;
 }
 
 /* --- Blob gradient background (static-ish, but you can keep the subtle drift) --- */
